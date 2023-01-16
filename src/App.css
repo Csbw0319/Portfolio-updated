@@ -1,10 +1,53 @@
+* {
+  background-color: burlywood;
+}
 .App {
   text-align: center;
+  font-family: 'Amatic SC', cursive;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main-img {
+ width: 15rem;
+ height: 15rem;
+ border-radius: 120px;
+ margin-top: 30px;
+}
+.background-img {
+  /* width: 120px;
+  height: 120px; */
+  float: right;
+}
+.header-list {
+/* display: inline; */
+margin-bottom: 70px;
+}
+li{
+  display: inline;
+  padding: 50px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.typewriter {
+  font-size: 50px;;
+}
+a {
+text-decoration: none;
+color: black;
+padding: 10px;
+border-bottom: 1px solid black;
+}
+a:hover {
+  color:bisque;
+}
+.icons {
+  padding: 5px 0 0 15px;
+}
+.social-icons {
+  bottom: 0;
+  margin-bottom: 20px;
+}
+.paragraph {
+  font-size: 22px;
+  font-weight: bold;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -25,7 +68,11 @@
 }
 
 .App-link {
-  color: #61dafb;
+}
+.social-icons {
+  position:absolute;
+  left: 0;
+  display: block;
 }
 
 @keyframes App-logo-spin {
@@ -36,3 +83,5 @@
     transform: rotate(360deg);
   }
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
