@@ -3,7 +3,6 @@ import Typewriter from 'typewriter-effect';
 import MainPhoto from '../components/MainPhoto';
 import Title from '../components/title';
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
 
 function Home() {
   return (
@@ -21,6 +20,7 @@ function Home() {
             .start()
           }}/>
           </div>
+          <img className='floral-img' src={require('../assets/Screen_Shot_2023-01-16_at_12.36.15_AM-removebg-preview.png')} alt='' />
           <div className='middle-container'>
         <MainPhoto />
         <Title />

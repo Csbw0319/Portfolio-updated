@@ -103,6 +103,14 @@ a:hover {
   font-weight: bold;
   cursor: pointer;
 }
+.floral-img {
+  margin-left: 300px;
+  float: right;
+  position: absolute;
+  background-color: transparent;
+  opacity: .8;
+  margin-top: 80px;
+}
 
 
 @media (prefers-reduced-motion: no-preference) {
