@@ -33,7 +33,7 @@ function Contact() {
 
   return (
     <div>
-        <h1>Get in Touch</h1>
+        <h1>Get in Touch:</h1>
         <form className='contact-form'onSubmit={onSubmit}>
           <div>
             <input 
@@ -55,7 +55,7 @@ function Contact() {
               onChange={handleChange}
             />
           </div>
-          <button onClick={onClick} type='submit'>Submit</button>
+          <button id='contact-button' onClick={onClick} type='submit'>Submit</button>
         </form>
     </div>
   )

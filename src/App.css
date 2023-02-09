@@ -65,19 +65,51 @@ a:hover {
 .name-field  {
  height: 30px;
  border-radius: 10px;
- width: 30%;
+ width: 40%;
  margin: 10px;
+ background-color: bisque;
+ font-family: 'Amatic SC', cursive;
+ font-size: 20px;
+ text-align: center;
+ outline: none;
 }
 .message-field {
-  height: 100px;
-  width: 30%;
+  height: 200px;
+  width: 40%;
   border-radius: 10px;
   margin: 10px;
+  background-color: bisque;
+  font-family: 'Amatic SC', cursive; font-size: 20px;
+  outline: none;
+  text-align:unset;
+  
 }
 .contact-form {
   border: 2px solid black;
-  width: 60%;
+  width: 40%;
+  justify-content: center;
+  margin: 0 auto;
   
+}
+#contact-button {
+  margin: 10px;
+  margin-bottom: 20px;
+  width: 40%;
+  height: 30px;
+  border-radius: 10px;
+  background-color: bisque;
+  font-family: 'Amatic SC', cursive;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.floral-img {
+  margin-left: 300px;
+  float: right;
+  position: absolute;
+  background-color: transparent;
+  opacity: .8;
+  margin-top: 80px;
 }
 
 
