@@ -8,6 +8,9 @@ function Contact() {
     message: '',
   });
 
+  const onClick = () => {
+    alert('Message sent successfully!')
+  }
   const onSubmit = (e) => {
     e.preventDefault();
     send(
@@ -24,27 +27,37 @@ function Contact() {
     });
   };
 
+  const handleChange = (e) => {
+    setToSend({...toSend, [e.target.name]: e.target.value });
+  };
 
   return (
     <div>
-      <h1>Get in Touch</h1>
-      <form onSubmit={onSubmit} id="form">
-        <div class="field">
-          <label for="from_name">Full Name:</label>
-          <input type="text" name="from_name" id="from_name" />
+        <h1>Get in Touch</h1>
+        <form className='contact-form'onSubmit={onSubmit}>
+          <div>
+            <input 
+              className='name-field'
+              type='text'
+              name='from_name'
+              placeholder='Full Name'
+              value={toSend.from_name}
+             onChange={handleChange}
+            />
+          </div>
+          <div>
+            <input 
+              className='message-field'
+              type='text'
+              name='message'
+              placeholder='Message'
+              value={toSend.message}
+              onChange={handleChange}
+            />
+          </div>
+          <button onClick={onClick} type='submit'>Submit</button>
+        </form>
     </div>
-        <div class="field">
-          <label for="message">Message</label>
-          <input type="text" name="message" id="message" />
-    </div>
-        <div class="field">
-          <label for="reply_to">reply to</label>
-          <input type="text" name="reply_to" id="reply_to" />
-    </div>
-
-    <input type="submit" id="button" value="Send Email" />
-  </form>
-</div>
   )
 }
 
