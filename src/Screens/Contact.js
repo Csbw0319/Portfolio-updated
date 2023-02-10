@@ -9,7 +9,9 @@ function Contact() {
   });
 
   const onClick = () => {
-    alert('Message sent successfully!')
+    alert('Message sent successfully!');
+    document.getElementById('name-field').value = "";
+    document.getElementById('message-field').value = "";
   }
   const onSubmit = (e) => {
     e.preventDefault();
@@ -37,7 +39,7 @@ function Contact() {
         <form className='contact-form'onSubmit={onSubmit}>
           <div>
             <input 
-              className='name-field'
+              id='name-field'
               type='text'
               name='from_name'
               placeholder='Full Name'
@@ -47,7 +49,7 @@ function Contact() {
           </div>
           <div>
             <input 
-              className='message-field'
+              id='message-field'
               type='text'
               name='message'
               placeholder='Message'
