@@ -4,6 +4,7 @@ import Home from './Screens/Home';
 import Contact from './Screens/Contact';
 import Skills from './Screens/Skills';
 import Projects from './Screens/Projects';
+import Resume from './Screens/Resume';
 
 function App() {
 
@@ -37,6 +38,7 @@ let activeStyle = {
         <Route path='/contact' element={<Contact />} />
         <Route path='/skills' element={<Skills />} />
         <Route path='/project' element={<Projects />} />
+        <Route path='/resume' element={<Resume />} />
       </Routes>
      </div>
   );
