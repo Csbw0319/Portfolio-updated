@@ -114,6 +114,9 @@ a:hover {
 #mongo-logo {
   width: 90%;
 }
+.project-img {
+  height: 400px;
+}
 
 
 @media (prefers-reduced-motion: no-preference) {
