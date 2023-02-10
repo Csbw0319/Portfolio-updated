@@ -38,7 +38,10 @@ function Skills() {
           <img className='skill-logos' src={require('../assets/react-native-firebase-1-logo-png-transparent.png')} alt='' />
         </SplideSlide>
         <SplideSlide>
-        <img className='skill-logos' src={require('../assets/postgresql-inc-logo-png-transparent.png')} alt='' />
+          <img className='skill-logos' src={require('../assets/postgresql-inc-logo-png-transparent.png')} alt='' />
+        </SplideSlide>
+        <SplideSlide>
+          <img className='skill-logos' src={require('../assets/git.png')} alt='' />
         </SplideSlide>
       </Splide>
       <div>
