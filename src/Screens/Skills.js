@@ -46,6 +46,7 @@ function Skills() {
       </Splide>
       <div>
         <img className='certifications' src={require('../assets/Certificate-of-Completion-cwilkins0319@icloud.com-1663858411-1.png')} alt='' />
+        <img className='certifications' src={require('../assets/udemy.png')} alt='' />
       </div>
     </div>
   )
