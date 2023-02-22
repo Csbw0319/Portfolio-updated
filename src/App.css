@@ -150,6 +150,23 @@ a:hover {
   display: block;
 }
 
+@media screen and (max-width: 768px){
+  .header-list {
+    display: none;
+  }
+  .paragraph {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .floral-img {
+    margin-left:170px;
+    height: 300px;
+    float: right;
+    top: 345px;
+  }
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

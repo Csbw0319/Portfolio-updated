@@ -28,6 +28,7 @@ function Projects() {
             <img className='project-img' src={require('../assets/Laptop_Screen Shot 2023-02-10 at 5.24.17 PM.png')} alt='' />
             <h3>School Garden Program website:</h3>
             <p>This is a website that allows volunteers to create an account to volunteer for their local school system school garden program. Volunteers are able to schedule day and time to volunteer with a school.</p>
+            <a href='https://ancient-inlet-66735.herokuapp.com/' alt=''>Live Website</a>
         </SplideSlide>
         {/* <h3>Enjoy this Number's Guessing game made with React Native. </h3>
         <h3>Simply enter any number to begin and let the computer guess your number!</h3> */}
